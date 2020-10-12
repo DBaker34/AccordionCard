@@ -5,11 +5,25 @@ html {
     padding: 0;
     margin: 0;
 }
+
 body {
     height: 100%;
     width: 100%;
     padding: 0;
     margin: 0;
+}
+
+#textContent {
+    width: 50%;
+    float: right;
+}
+
+h4{
+    font-weight: 400;
+}
+
+h4:hover {
+    font-weight: 700;
 }
 
 .container {
@@ -21,4 +35,15 @@ body {
     padding: 50px;
     background-color: white;
     border-radius: 5%;
+    overflow: auto;
+}
+
+p {
+    display: none;
+}
+
+.attribution {
+    float: left;
+    text-align: center;
+    width: 100%;
 }
