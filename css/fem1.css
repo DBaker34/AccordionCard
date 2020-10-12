@@ -24,6 +24,7 @@ h4{
 
 h4:hover {
     color: #f47c57;
+    cursor: pointer;
 }
 
 .container {
