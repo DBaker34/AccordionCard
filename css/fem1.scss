@@ -1,0 +1,20 @@
+$darkblue: hsl(238, 29%, 16%);
+$softred: hsl(14, 88%, 65%);
+
+$softviolet: hsl(273, 75%, 66%);
+$softblue: hsl(240, 73%, 65%);
+
+html {
+    background-image: linear-gradient(to top, $softblue, $softviolet);
+}
+
+.container {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+@media only screen and(max-width: 375px){
+    
+}
