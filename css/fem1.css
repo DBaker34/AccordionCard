@@ -1,50 +1,27 @@
 html {
-    background-image: linear-gradient(to top, #6565e7, #af67e9);
-    height: 100%;
-    display: grid;
-    padding: 0;
-    margin: 0;
-}
+  background-image: linear-gradient(to top, #6565e7, #af67e9); }
 
 body {
-    height: 100%;
-    width: 100%;
-    padding: 0;
-    margin: 0;
-}
-
-#textContent {
-    width: 50%;
-    float: right;
-}
-
-h4{
-    font-weight: 400;
-}
-
-h4:hover {
-    color: #f47c57;
-    cursor: pointer;
-}
+  padding: 0;
+  margin: 0;
+  height: 100vh; }
 
 .container {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 200px;
-    width: 600px;
-    height: auto;
-    padding: 50px;
-    background-color: white;
-    border-radius: 3%;
-    overflow: auto;
-}
+  width: 50%;
+  height: 100vh;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center; }
+
+#card {
+  width: 100%;
+  background-color: white; }
 
 p {
-    display: none;
-}
+  display: none; }
 
-.attribution {
-    float: left;
-    text-align: center;
-    width: 100%;
-}
+h4:hover {
+  color: #f47c57; }
+
+/*# sourceMappingURL=fem1.css.map */
