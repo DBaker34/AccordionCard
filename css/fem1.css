@@ -1,5 +1,6 @@
 html {
-  background-image: linear-gradient(to top, #6565e7, #af67e9); }
+  background-image: linear-gradient(to top, #6565e7, #af67e9);
+  font-size: 12px; }
 
 body {
   padding: 0;
@@ -32,8 +33,13 @@ body {
   #card #wdesk {
     position: absolute;
     left: -10%;
-    top: 25%;
+    top: 10%;
     width: 50%; }
+  #card #bgpattern {
+    position: absolute;
+    left: -60%;
+    top: -55%;
+    width: 100%; }
 
 h1 {
   margin-bottom: 10%; }
@@ -42,6 +48,7 @@ h4 {
   font-weight: 400; }
 
 h4:hover {
-  color: #f47c57; }
+  color: #f47c57;
+  cursor: pointer; }
 
 /*# sourceMappingURL=fem1.css.map */
