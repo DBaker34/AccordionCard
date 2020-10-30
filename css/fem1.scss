@@ -6,6 +6,7 @@ $softblue: hsl(240, 73%, 65%);
 
 html {
     background-image: linear-gradient(to top, $softblue, $softviolet);
+    font-size: 12px;
 }
 
 body {
@@ -44,8 +45,15 @@ body {
     #wdesk {
         position: absolute;
         left: -10%;
-        top: 25%;
+        top: 10%;
         width: 50%;
+    }
+
+    #bgpattern {
+        position: absolute;
+        left: -60%;
+        top: -55%;
+        width: 100%;
     }
 }
 
@@ -58,6 +66,7 @@ h4 {
 
 h4:hover {
     color: $softred;
+    cursor: pointer;
 }
 
 @media only screen and(max-width: 375px){
