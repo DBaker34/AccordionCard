@@ -51,4 +51,25 @@ h4:hover {
   color: #f47c57;
   cursor: pointer; }
 
+@media only screen and (max-width: 750px) {
+  body {
+    font-size: 18px; }
+
+  .container {
+    width: 90%; }
+
+  #text {
+    width: 100%; }
+
+  #card {
+    width: 100%;
+    padding: 150px 40px 40px 40px; }
+    #card #wdesk {
+      display: none; }
+    #card #bgpattern {
+      display: none; }
+
+  h1 {
+    text-align: center; } }
+
 /*# sourceMappingURL=fem1.css.map */
