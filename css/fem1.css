@@ -3,12 +3,20 @@ html {
   font-size: 12px; }
 
 body {
+  font-family: 'Kumbh Sans', sans-serif;
   padding: 0;
   margin: 0;
   height: 100vh; }
 
+.bold {
+  font-weight: 700;
+}
+
 .hidden {
   display: none; }
+
+.shown {
+  display: block; }
 
 #text {
   width: 50%;
@@ -40,18 +48,25 @@ body {
     left: -60%;
     top: -55%;
     width: 100%; }
+  #card #wdeskmobile {
+    display: none; }
+  #card #bgmobile {
+    display: none; }
 
 h1 {
   margin-bottom: 10%; }
 
 h4 {
-  font-weight: 400; }
+  font-weight: 400;
+  width: 95%; }
+  h4 .downarrow {
+    float: right; }
 
 h4:hover {
   color: #f47c57;
   cursor: pointer; }
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 500px) {
   body {
     font-size: 18px; }
 
@@ -63,11 +78,22 @@ h4:hover {
 
   #card {
     width: 100%;
-    padding: 150px 40px 40px 40px; }
+    padding: 100px 40px 40px 40px;
+    overflow: visible; }
     #card #wdesk {
       display: none; }
     #card #bgpattern {
       display: none; }
+    #card #wdeskmobile {
+      display: inline;
+      position: absolute;
+      top: -17%;
+      left: 16%; }
+    #card #bgmobile {
+      display: inline;
+      position: absolute;
+      top: 0%;
+      left: 22%; }
 
   h1 {
     text-align: center; } }
