@@ -10,6 +10,7 @@ html {
 }
 
 body {
+    font-family: 'Kumbh Sans', sans-serif;
     padding: 0;
     margin: 0;
     height: 100vh;
@@ -17,6 +18,10 @@ body {
 
 .hidden {
     display: none;
+}
+
+.shown {
+    display: block;
 }
 
 #text {
@@ -55,6 +60,14 @@ body {
         top: -55%;
         width: 100%;
     }
+
+    #wdeskmobile {
+        display: none;
+    }
+
+    #bgmobile {
+        display: none;
+    }
 }
 
 h1 {
@@ -62,6 +75,10 @@ h1 {
 }
 h4 {
     font-weight: 400;
+    width: 95%;
+    .downarrow {
+        float: right;
+    }
 }
 
 h4:hover {
@@ -69,7 +86,7 @@ h4:hover {
     cursor: pointer;
 }
 
-@media only screen and(max-width: 750px){
+@media only screen and(max-width: 500px){
     body {
         font-size: 18px;
     }
@@ -84,12 +101,25 @@ h4:hover {
 
     #card {
         width: 100%;
-        padding: 150px 40px 40px 40px;
+        padding: 100px 40px 40px 40px;
+        overflow: visible;
         #wdesk {
             display: none;
         }
         #bgpattern {
             display: none;
+        }
+        #wdeskmobile {
+            display: inline;
+            position: absolute;
+            top: -17%;
+            left: 16%;
+        }
+        #bgmobile {
+            display: inline;
+            position: absolute;
+            top: 0%;
+            left: 22%;
         }
     }
 
